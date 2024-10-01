@@ -1,0 +1,242 @@
+.body{
+    font-family: Arial, sans-serif;
+}
+.mainHeader{
+    background-color: #f85606;
+    width: auto;
+    height: 130px;
+    font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+    color: white;
+}
+.headerLogo{
+position: relative;
+top: 50px;
+left: 250px;
+}
+.topMainNav{
+
+    float: right;
+}
+.topMainNav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding-right: 180px;
+    color: white;
+
+}
+.container .input{
+    border: 0;
+    outline: none;
+
+}
+.search_wrap{
+    width: 500px;
+    margin: 1px auto; 
+}
+.search_wrap .search_box{
+position: relative;
+right: 100px;
+width: 650px;
+height: 45px;
+}
+.search_wrap .search_box .input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+}
+ .myslides{
+    display: none;
+ }
+ .slidingImages{
+    color: rgb(186, 186, 186);
+    position :relative;
+    left: 380px;    
+ }
+.flashSale{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 22px;
+    margin-left: 350px;
+}
+.contentHeading{
+    border: 1px solid ;
+    height: 100px;
+    margin-left: 350px;
+    margin-right: 300px;
+}
+
+.onSaleNoW{
+    color: #f85606;
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 100px;
+}
+.shopAllProducts{
+position: relative;
+right: 20px;
+top: 20px;
+float: right;
+color: #f85606;
+border: solid 1px;
+
+
+
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide input{
+    display: none;
+
+}
+.st{
+    width: 20%;
+    transition: 2s;
+
+}
+.st img{
+    width: 800px;
+    height: 500px;   
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+
+}
+.m-btn{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+}
+.m-btn:not(last-child){
+    margin-right: 30px;   
+}
+.m-btn:hover{
+    background-color: blue;
+}
+#radio1:checked~.first{
+    margin-left: 0;
+}
+#radio2:checked~.first{
+    margin-left: -20%;
+}
+#radio3:checked~.first{
+    margin-left: -40%;
+}
+#radio4:checked~.first{
+    margin-left: -40%;
+}
+#radio5:checked~.first{
+    margin-left: -60%;
+}
+#radio6:checked~.first{
+    margin-left: -80%;
+}
+#radio7:checked~.first{
+    margin-left: -100%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+#radio2:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+
+#radio3:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+#radio4:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+#radio5:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+#radio6:checked ~ .nav-auto .a-b{
+    background-color: blue;
+}
+#radio7:checked ~ .nav-auto .a-b{
+    background-color: blue;
+} */

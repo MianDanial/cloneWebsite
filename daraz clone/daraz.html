@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Daraz HomePage</title>
+    <link rel="stylesheet" href="../daraz clone/daraz.css">
+
+</head>
+
+<body>
+<header class="mainHeader">
+
+   
+
+    <nav class="topMainNav">
+        <ul>
+            <a href="">Sell more on app</a>
+            <a href="">Sell on daraz</a>
+            <a href="">Help & Support</a>
+            <a href="">Login</a>
+            <a href="">Sign up</a>
+            <a href="">Logout</a>
+        </ul>
+
+    </nav>
+
+    <div class="headerLogo">
+        <img src="./snipping img/darazLogo.PNG" alt="darazlogo" class="headerLogo_input">
+    </div>
+    
+<div class="container">
+    <div class="search_wrap search wrap_1">
+    <div class="search_box">
+        <input type="text" class="input" placeholder="Search on daraz">
+    <i class="fas fa-search"></i>
+    </div>
+    </div>
+</div>
+
+
+</header> 
+<!-- header end -->
+
+<div class="slidingImages">
+    <img src="../daraz clone/snipping img/slidingImg1.webp" alt="slidigImg1" class="mySlides">
+    <img src="../daraz clone/snipping img/slidingImg2.webp" alt="slidigImg2" class="mySlides">
+    <img src="../daraz clone/snipping img/slidingImg3.webp" alt="slidigImg3" class="mySlides">
+</div>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    <h2 class="flashSale">Flash Sale</h2>
+    
+    
+    <div class="contentHeading">
+        <div class="onSaleNoW">
+            <h5 >On Sale Now</h5>
+        </div>
+
+        <div class="shopAllProducts">
+            <p>Shop all Products</p>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- <selection class="selection">
+    <div class="slider">
+        <div class="slide">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <input type="radio" name="radio-btn" id="radio7">
+
+            <div class="st">
+                <img src="./snipping img/slidingImg1.webp" alt="slidingImg1">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg1.webp" alt="slidingImg1">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg2.webp" alt="slidingImg2">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg3.webp" alt="slidingImg3">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg4.webp" alt="slidingImg4">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg5.webp" alt="slidingImg5">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg6.webp" alt="slidingImg6">
+            </div>
+
+            <div class="st">
+                <img src="./snipping img/slidingImg7.webp" alt="slidingImg7">
+            </div>
+
+            <div class="nav-auto">
+                <div class="a-b1"></div>
+                <div class="a-b2"></div>
+                <div class="a-b3"></div>
+                <div class="a-b4"></div>
+                <div class="a-b5"></div>
+                <div class="a-b6"></div>
+                <div class="a-b7"></div>
+            
+            </div>
+        
+        </div>
+    
+    
+        <div class="nav m">
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio1" class="m-btn"></label>
+        </div>
+    
+    
+    </div>
+</selection> -->
+<!-- <script type="text/javascript">
+var counter=1;
+setInterval(funtion){
+    document.getElementById('radio'+counter).checked=true;
+    counter++;
+    if(counter>7){
+        counter=1
+    }
+},5000;
+</script> -->
+    
+</body>
+</html>
